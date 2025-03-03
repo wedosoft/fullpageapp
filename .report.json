@@ -1,0 +1,9 @@
+{
+  "lints": [
+    {
+      "severity": 1,
+      "value": "app/scripts/app.js::7: 'client' declared and assigned in different scopes. Possible asynchronous race condition."
+    }
+  ],
+  "coverageSummary": {}
+}

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call Information App</title>
+
+  <!-- Crayons CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/css/crayons-min.css">
+
+  <!-- Crayons JavaScript -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js"></script>
+</head>
+<body>
+  <!-- Main app container -->
+  <div class="app-container fw-p-24">
+    <!-- Title -->
+    <h1 class="fw-type-h1">Call Information Dashboard</h1>
+
+    <!-- Call information container -->
+    <div id="call-info-container" class="fw-p-24 fw-mt-24 fw-border fw-rounded-8">
+      <!-- Placeholder for call information -->
+      <p id="call-info-placeholder" class="fw-type-body">No call information to display.</p>
+    </div>
+
+    <!-- Check call module button -->
+    <fw-button id="check-call-module" color="primary" onclick="checkCallModule()" class="fw-mt-16">
+      Check Call Module
+    </fw-button>
+  </div>
+
+  <!-- Include app.js for business logic -->
+  <script src="app.js"></script>
+<script defer src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+<script defer src="scripts/app.js"></script>
+</body>
+</html>
