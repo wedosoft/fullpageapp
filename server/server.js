@@ -1,4 +1,3 @@
-
 exports = {
     // Server method to check the call module functionality
     checkCallModule: async function () {
